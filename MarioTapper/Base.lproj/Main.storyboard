@@ -24,6 +24,9 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Tapper" translatesAutoresizingMaskIntoConstraints="NO" id="opi-Oo-Otf">
                                 <rect key="frame" x="150" y="51" width="300" height="150"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Play" translatesAutoresizingMaskIntoConstraints="NO" id="Sfy-ya-Biu">
+                                <rect key="frame" x="180" y="334" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -33,7 +36,10 @@
                             <constraint firstItem="LJM-nS-kg6" firstAttribute="width" secondItem="opi-Oo-Otf" secondAttribute="width" multiplier="1.5" id="WAA-jC-1mT"/>
                             <constraint firstItem="LJM-nS-kg6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="cwm-gN-hb3"/>
                             <constraint firstItem="opi-Oo-Otf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="15" id="h72-ji-fVD"/>
+                            <constraint firstItem="Sfy-ya-Biu" firstAttribute="width" secondItem="opi-Oo-Otf" secondAttribute="width" id="ilv-3j-f1u"/>
+                            <constraint firstItem="Sfy-ya-Biu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l1H-fN-7DZ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LJM-nS-kg6" secondAttribute="bottom" id="nII-0s-IgO"/>
+                            <constraint firstItem="Sfy-ya-Biu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="u3A-MC-eX9"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -44,6 +50,7 @@
     </scenes>
     <resources>
         <image name="Mario Clouds" width="2472" height="1802"/>
+        <image name="Play" width="271" height="117"/>
         <image name="Tapper" width="355" height="102"/>
     </resources>
 </document>
