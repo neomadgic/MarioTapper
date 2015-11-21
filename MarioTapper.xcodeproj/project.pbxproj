@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		765962F71BFFFB7D00AE5855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765962F61BFFFB7D00AE5855 /* AppDelegate.swift */; };
+		765962F91BFFFB7D00AE5855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765962F81BFFFB7D00AE5855 /* ViewController.swift */; };
+		765962FC1BFFFB7D00AE5855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765962FA1BFFFB7D00AE5855 /* Main.storyboard */; };
+		765962FE1BFFFB7D00AE5855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765962FD1BFFFB7D00AE5855 /* Assets.xcassets */; };
+		765963011BFFFB7D00AE5855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765962FF1BFFFB7D00AE5855 /* LaunchScreen.storyboard */; };
+		7659630C1BFFFB7D00AE5855 /* MarioTapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7659630B1BFFFB7D00AE5855 /* MarioTapperTests.swift */; };
+		765963171BFFFB7D00AE5855 /* MarioTapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765963161BFFFB7D00AE5855 /* MarioTapperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		765963081BFFFB7D00AE5855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 765962EB1BFFFB7C00AE5855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 765962F21BFFFB7D00AE5855;
+			remoteInfo = MarioTapper;
+		};
+		765963131BFFFB7D00AE5855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 765962EB1BFFFB7C00AE5855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 765962F21BFFFB7D00AE5855;
+			remoteInfo = MarioTapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		765962F31BFFFB7D00AE5855 /* MarioTapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioTapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		765962F61BFFFB7D00AE5855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		765962F81BFFFB7D00AE5855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		765962FB1BFFFB7D00AE5855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		765962FD1BFFFB7D00AE5855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		765963001BFFFB7D00AE5855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		765963021BFFFB7D00AE5855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765963071BFFFB7D00AE5855 /* MarioTapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioTapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7659630B1BFFFB7D00AE5855 /* MarioTapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioTapperTests.swift; sourceTree = "<group>"; };
+		7659630D1BFFFB7D00AE5855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765963121BFFFB7D00AE5855 /* MarioTapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioTapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		765963161BFFFB7D00AE5855 /* MarioTapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioTapperUITests.swift; sourceTree = "<group>"; };
+		765963181BFFFB7D00AE5855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		765962F01BFFFB7D00AE5855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765963041BFFFB7D00AE5855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7659630F1BFFFB7D00AE5855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		765962EA1BFFFB7C00AE5855 = {
+			isa = PBXGroup;
+			children = (
+				765962F51BFFFB7D00AE5855 /* MarioTapper */,
+				7659630A1BFFFB7D00AE5855 /* MarioTapperTests */,
+				765963151BFFFB7D00AE5855 /* MarioTapperUITests */,
+				765962F41BFFFB7D00AE5855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		765962F41BFFFB7D00AE5855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				765962F31BFFFB7D00AE5855 /* MarioTapper.app */,
+				765963071BFFFB7D00AE5855 /* MarioTapperTests.xctest */,
+				765963121BFFFB7D00AE5855 /* MarioTapperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		765962F51BFFFB7D00AE5855 /* MarioTapper */ = {
+			isa = PBXGroup;
+			children = (
+				765962F61BFFFB7D00AE5855 /* AppDelegate.swift */,
+				765962F81BFFFB7D00AE5855 /* ViewController.swift */,
+				765962FA1BFFFB7D00AE5855 /* Main.storyboard */,
+				765962FD1BFFFB7D00AE5855 /* Assets.xcassets */,
+				765962FF1BFFFB7D00AE5855 /* LaunchScreen.storyboard */,
+				765963021BFFFB7D00AE5855 /* Info.plist */,
+			);
+			path = MarioTapper;
+			sourceTree = "<group>";
+		};
+		7659630A1BFFFB7D00AE5855 /* MarioTapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				7659630B1BFFFB7D00AE5855 /* MarioTapperTests.swift */,
+				7659630D1BFFFB7D00AE5855 /* Info.plist */,
+			);
+			path = MarioTapperTests;
+			sourceTree = "<group>";
+		};
+		765963151BFFFB7D00AE5855 /* MarioTapperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				765963161BFFFB7D00AE5855 /* MarioTapperUITests.swift */,
+				765963181BFFFB7D00AE5855 /* Info.plist */,
+			);
+			path = MarioTapperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		765962F21BFFFB7D00AE5855 /* MarioTapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7659631B1BFFFB7D00AE5855 /* Build configuration list for PBXNativeTarget "MarioTapper" */;
+			buildPhases = (
+				765962EF1BFFFB7D00AE5855 /* Sources */,
+				765962F01BFFFB7D00AE5855 /* Frameworks */,
+				765962F11BFFFB7D00AE5855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarioTapper;
+			productName = MarioTapper;
+			productReference = 765962F31BFFFB7D00AE5855 /* MarioTapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		765963061BFFFB7D00AE5855 /* MarioTapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7659631E1BFFFB7D00AE5855 /* Build configuration list for PBXNativeTarget "MarioTapperTests" */;
+			buildPhases = (
+				765963031BFFFB7D00AE5855 /* Sources */,
+				765963041BFFFB7D00AE5855 /* Frameworks */,
+				765963051BFFFB7D00AE5855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				765963091BFFFB7D00AE5855 /* PBXTargetDependency */,
+			);
+			name = MarioTapperTests;
+			productName = MarioTapperTests;
+			productReference = 765963071BFFFB7D00AE5855 /* MarioTapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		765963111BFFFB7D00AE5855 /* MarioTapperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 765963211BFFFB7D00AE5855 /* Build configuration list for PBXNativeTarget "MarioTapperUITests" */;
+			buildPhases = (
+				7659630E1BFFFB7D00AE5855 /* Sources */,
+				7659630F1BFFFB7D00AE5855 /* Frameworks */,
+				765963101BFFFB7D00AE5855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				765963141BFFFB7D00AE5855 /* PBXTargetDependency */,
+			);
+			name = MarioTapperUITests;
+			productName = MarioTapperUITests;
+			productReference = 765963121BFFFB7D00AE5855 /* MarioTapperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		765962EB1BFFFB7C00AE5855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Vu Dang";
+				TargetAttributes = {
+					765962F21BFFFB7D00AE5855 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					765963061BFFFB7D00AE5855 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 765962F21BFFFB7D00AE5855;
+					};
+					765963111BFFFB7D00AE5855 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 765962F21BFFFB7D00AE5855;
+					};
+				};
+			};
+			buildConfigurationList = 765962EE1BFFFB7C00AE5855 /* Build configuration list for PBXProject "MarioTapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 765962EA1BFFFB7C00AE5855;
+			productRefGroup = 765962F41BFFFB7D00AE5855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				765962F21BFFFB7D00AE5855 /* MarioTapper */,
+				765963061BFFFB7D00AE5855 /* MarioTapperTests */,
+				765963111BFFFB7D00AE5855 /* MarioTapperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		765962F11BFFFB7D00AE5855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765963011BFFFB7D00AE5855 /* LaunchScreen.storyboard in Resources */,
+				765962FE1BFFFB7D00AE5855 /* Assets.xcassets in Resources */,
+				765962FC1BFFFB7D00AE5855 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765963051BFFFB7D00AE5855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765963101BFFFB7D00AE5855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		765962EF1BFFFB7D00AE5855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765962F91BFFFB7D00AE5855 /* ViewController.swift in Sources */,
+				765962F71BFFFB7D00AE5855 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765963031BFFFB7D00AE5855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7659630C1BFFFB7D00AE5855 /* MarioTapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7659630E1BFFFB7D00AE5855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765963171BFFFB7D00AE5855 /* MarioTapperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		765963091BFFFB7D00AE5855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 765962F21BFFFB7D00AE5855 /* MarioTapper */;
+			targetProxy = 765963081BFFFB7D00AE5855 /* PBXContainerItemProxy */;
+		};
+		765963141BFFFB7D00AE5855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 765962F21BFFFB7D00AE5855 /* MarioTapper */;
+			targetProxy = 765963131BFFFB7D00AE5855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		765962FA1BFFFB7D00AE5855 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				765962FB1BFFFB7D00AE5855 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		765962FF1BFFFB7D00AE5855 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				765963001BFFFB7D00AE5855 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		765963191BFFFB7D00AE5855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7659631A1BFFFB7D00AE5855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7659631C1BFFFB7D00AE5855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarioTapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neomadgic.MarioTapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7659631D1BFFFB7D00AE5855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarioTapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neomadgic.MarioTapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7659631F1BFFFB7D00AE5855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarioTapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neomadgic.MarioTapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioTapper.app/MarioTapper";
+			};
+			name = Debug;
+		};
+		765963201BFFFB7D00AE5855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarioTapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neomadgic.MarioTapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioTapper.app/MarioTapper";
+			};
+			name = Release;
+		};
+		765963221BFFFB7D00AE5855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarioTapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neomadgic.MarioTapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarioTapper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		765963231BFFFB7D00AE5855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarioTapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = neomadgic.MarioTapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarioTapper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		765962EE1BFFFB7C00AE5855 /* Build configuration list for PBXProject "MarioTapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765963191BFFFB7D00AE5855 /* Debug */,
+				7659631A1BFFFB7D00AE5855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7659631B1BFFFB7D00AE5855 /* Build configuration list for PBXNativeTarget "MarioTapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7659631C1BFFFB7D00AE5855 /* Debug */,
+				7659631D1BFFFB7D00AE5855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7659631E1BFFFB7D00AE5855 /* Build configuration list for PBXNativeTarget "MarioTapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7659631F1BFFFB7D00AE5855 /* Debug */,
+				765963201BFFFB7D00AE5855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		765963211BFFFB7D00AE5855 /* Build configuration list for PBXNativeTarget "MarioTapperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				765963221BFFFB7D00AE5855 /* Debug */,
+				765963231BFFFB7D00AE5855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 765962EB1BFFFB7C00AE5855 /* Project object */;
+}
