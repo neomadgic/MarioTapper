@@ -2,6 +2,8 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,7 +17,24 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mario Clouds" translatesAutoresizingMaskIntoConstraints="NO" id="LJM-nS-kg6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Tapper" translatesAutoresizingMaskIntoConstraints="NO" id="opi-Oo-Otf">
+                                <rect key="frame" x="150" y="51" width="300" height="150"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="LJM-nS-kg6" secondAttribute="trailing" constant="-20" id="00h-QH-YfM"/>
+                            <constraint firstItem="opi-Oo-Otf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="5zb-zq-J5W"/>
+                            <constraint firstItem="LJM-nS-kg6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="DpA-gH-dty"/>
+                            <constraint firstItem="LJM-nS-kg6" firstAttribute="width" secondItem="opi-Oo-Otf" secondAttribute="width" multiplier="1.5" id="WAA-jC-1mT"/>
+                            <constraint firstItem="LJM-nS-kg6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="cwm-gN-hb3"/>
+                            <constraint firstItem="opi-Oo-Otf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="15" id="h72-ji-fVD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LJM-nS-kg6" secondAttribute="bottom" id="nII-0s-IgO"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -23,4 +42,8 @@
             <point key="canvasLocation" x="305" y="418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Mario Clouds" width="2472" height="1802"/>
+        <image name="Tapper" width="355" height="102"/>
+    </resources>
 </document>
