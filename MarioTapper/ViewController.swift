@@ -8,16 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+class ViewController: UIViewController
+{
+    
+    @IBOutlet weak var logo: UIImageView!
+    @IBOutlet weak var playBtn: UIButton!
+    @IBOutlet weak var howManyTapsTxt: UITextField!
+    @IBOutlet weak var blockBtn: UIButton!
+    @IBOutlet weak var numTapsLbl: UILabel!
+    
+    @IBAction func playBtnPressed(sender: AnyObject)
+    {
+        logo.hidden = true;
+        playBtn.hidden = true;
+        howManyTapsTxt.hidden = true;
+        blockBtn.hidden = false;
+        numTapsLbl.hidden = false;
+        
+        
     }
 
 
