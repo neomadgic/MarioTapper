@@ -16,17 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mario Clouds" translatesAutoresizingMaskIntoConstraints="NO" id="LJM-nS-kg6">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mario Clouds" translatesAutoresizingMaskIntoConstraints="NO" id="LJM-nS-kg6" userLabel="cloudsBG">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Tapper" translatesAutoresizingMaskIntoConstraints="NO" id="opi-Oo-Otf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Tapper" translatesAutoresizingMaskIntoConstraints="NO" id="opi-Oo-Otf" userLabel="Logo">
                                 <rect key="frame" x="123" y="59" width="355" height="102"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="355" id="X4q-27-Y3v"/>
                                     <constraint firstAttribute="height" constant="102" id="iKf-8i-FZc"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qT0-k0-L9T">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qT0-k0-L9T" userLabel="PlayBtn">
                                 <rect key="frame" x="165" y="386" width="271" height="117"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="271" id="2bs-tN-HVe"/>
@@ -34,8 +34,8 @@
                                 </constraints>
                                 <state key="normal" image="Play"/>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many taps to win?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5tW-qG-cru">
-                                <rect key="frame" x="160" y="348" width="276" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many taps to win?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5tW-qG-cru" userLabel="TapsToWinTxt">
+                                <rect key="frame" x="160" y="348" width="276" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="1Il-V4-yBP"/>
                                     <constraint firstAttribute="width" constant="276" id="uf1-g9-kEV"/>
@@ -43,6 +43,24 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPJ-re-pek">
+                                <rect key="frame" x="225" y="59" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="BgH-Bd-nQP"/>
+                                    <constraint firstAttribute="width" constant="150" id="MK1-kg-CYi"/>
+                                </constraints>
+                                <state key="normal" image="24098"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="50 Taps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPr-08-6Y3">
+                                <rect key="frame" x="160" y="254" width="276" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="00g-hs-dxt"/>
+                                    <constraint firstAttribute="height" constant="75" id="umT-Xx-Mqe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -50,12 +68,16 @@
                             <constraint firstItem="opi-Oo-Otf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="4yC-X3-i2v"/>
                             <constraint firstItem="opi-Oo-Otf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AZt-fu-OPY"/>
                             <constraint firstItem="5tW-qG-cru" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HyF-fN-Zsh"/>
+                            <constraint firstItem="MPr-08-6Y3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K5o-EW-n18"/>
                             <constraint firstItem="LJM-nS-kg6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="KXu-Nb-ydz"/>
+                            <constraint firstItem="fPJ-re-pek" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KqG-Vj-PbU"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qT0-k0-L9T" secondAttribute="bottom" constant="97" id="MIy-Pb-sNA"/>
                             <constraint firstAttribute="trailing" secondItem="LJM-nS-kg6" secondAttribute="trailing" id="Myv-p0-O1Z"/>
+                            <constraint firstItem="fPJ-re-pek" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="39" id="SgO-Qg-DLl"/>
                             <constraint firstItem="qT0-k0-L9T" firstAttribute="top" secondItem="5tW-qG-cru" secondAttribute="bottom" constant="8" id="cXd-cy-myB"/>
                             <constraint firstItem="LJM-nS-kg6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="iv8-1E-o9U"/>
                             <constraint firstItem="qT0-k0-L9T" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="reH-69-ayw"/>
+                            <constraint firstItem="5tW-qG-cru" firstAttribute="top" secondItem="MPr-08-6Y3" secondAttribute="bottom" constant="15" id="upy-jw-Sge"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -65,6 +87,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="24098" width="320" height="320"/>
         <image name="Mario Clouds" width="2472" height="1802"/>
         <image name="Play" width="271" height="117"/>
         <image name="Tapper" width="355" height="102"/>
